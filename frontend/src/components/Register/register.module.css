@@ -1,0 +1,18 @@
+.button{
+    background-color: lightgreen;
+}
+
+.invalid{
+    color: red;
+    font-size: .6rem;
+    text-align: center;
+}
+.div{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 305px;
+}

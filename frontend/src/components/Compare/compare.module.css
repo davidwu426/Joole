@@ -1,0 +1,40 @@
+.td{
+    border: 1px solid #aaa;
+    border-bottom: none;
+    font-size: .5rem;
+    width: 200px;
+}
+
+td:last-child{
+    border-bottom: 1px solid #aaa;
+}
+
+.img {
+    height: 125px;
+    width: 200px;
+}
+.tr{
+    /* /* border:1px solid #aaa; */
+    padding : 0 ; 
+}  
+
+.table-one{
+    border-spacing: 0px;
+    height: 100%;
+    margin-left: 10px;
+} 
+
+.img-border{
+    border: 1px solid #aaa;
+}
+
+.container{
+    background-color: white;
+    height: 90vh;
+    margin-top: 75px;
+}
+
+.path{
+    height: 30px;
+    margin-left: 10px;
+}

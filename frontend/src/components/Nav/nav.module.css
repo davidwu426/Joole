@@ -1,0 +1,62 @@
+.div{
+    margin-top: 10px;
+    float: right;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.span{
+    margin: 10px;
+    padding-right: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font: 1.3rem;
+    width: 80px;
+    margin-left: 3%;
+}
+
+.profile{
+    display: flex;
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1050px){
+    .logo{
+        width: 80px;
+        height: 50px;
+        margin-left: 10px;
+    }
+}
+
+.searchContainer{
+    width: 50%;
+}
+
+
+
+.profileContainer{
+    display: flex;
+}
+
+.logoContainer{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

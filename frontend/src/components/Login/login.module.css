@@ -1,0 +1,40 @@
+.div{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5;
+    margin-bottom: 5px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+i{
+    position: absolute;
+    color: #aaa;
+}
+
+button{
+    border: 1px solid #aaa;
+    background-color: rgba(125,183,239);
+    border-radius: 5px;
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+
+.container{
+    width: 305px;
+}
+
+.icon{
+    float: right;
+}
